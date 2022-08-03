@@ -143,14 +143,14 @@ img {width: 70%; height: auto;}
     .divider {display: none;}
 }
 
-@media (max-width: 767.98px) {
+@media (min-width: 576px) and (max-width: 767.98px) {
     .mb-15px {margin-bottom: 15px;}
     .circle {width: 175px; height: 175px;}
     .choose_option__title {margin-bottom: 35px; font-size: 42px; text-align: center;} 
 
 }
 
-@media (max-width: 991.98px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
     .circle {width: 220px; height: 220px;}
 }
 
