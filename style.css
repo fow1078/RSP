@@ -131,5 +131,26 @@ img {width: 70%; height: auto;}
 }
 
 @media (max-width:  575.98px) {
-    .centring {margin-top: 50px;}
+    .centring {margin-top: 200px;}
 }
+
+
+
+@media (max-width: 575.98px) {
+    .choose_option__title {margin-bottom: 35px; font-size: 36px; text-align: center;} 
+    .circle {width: 150px; height: 150px;}
+    .mb-15px {margin-bottom: 15px;}
+    .divider {display: none;}
+}
+
+@media (max-width: 767.98px) {
+    .mb-15px {margin-bottom: 15px;}
+    .circle {width: 175px; height: 175px;}
+    .choose_option__title {margin-bottom: 35px; font-size: 42px; text-align: center;} 
+
+}
+
+@media (max-width: 991.98px) {
+    .circle {width: 220px; height: 220px;}
+}
+
